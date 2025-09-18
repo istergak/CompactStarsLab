@@ -1,0 +1,9 @@
+dash==3.2.0
+numpy
+sympy
+matplotlib.pyplot
+random
+prettytable
+os
+pandas
+gunicorn
