@@ -2,9 +2,7 @@ dash==3.2.0
 numpy
 sympy
 matplotlib
-random
 prettytable
 os
 pandas
-
 gunicorn
