@@ -9,6 +9,7 @@
 import numpy as np
 import sympy as smp
 #import pandas as pd
+from pathlib import Path
 from dash import html, dcc, callback, Input, Output, State, callback_context
 import dash
 import plotly.graph_objs as go
@@ -516,7 +517,7 @@ def wdg2_core_eos_fig(lang,model=None,color="black"):
         fig.update_layout(title=tr["widget_2"]["graph2_title"]+"None")
 
     else:
-        filename = f"data\main_NS\{model}_sol.csv"
+        filename = Path("data")/"main_NS"/f"{model}_sol.csv"
         eos_data = file_read(filename,EOS_type="main")
         P_data = eos_data[0]
         Ec_data = eos_data[1]
