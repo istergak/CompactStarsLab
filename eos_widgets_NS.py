@@ -516,7 +516,7 @@ def wdg2_core_eos_fig(lang,model=None,color="black"):
         fig.update_layout(title=tr["widget_2"]["graph2_title"]+"None")
 
     else:
-        filename = "data\main_NS\"+model+"_sol.csv"
+        filename = f"data\main_NS\{model}_sol.csv"
         eos_data = file_read(filename,EOS_type="main")
         P_data = eos_data[0]
         Ec_data = eos_data[1]
@@ -695,4 +695,3 @@ def wdg3_poly_grid(Γ_vals_num,num_segs,rho_n_factor,main_eos_choice,HLPS_2_grid
         showlegend=True,
     )
     return fig
-
