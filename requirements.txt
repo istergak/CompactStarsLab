@@ -3,6 +3,5 @@ numpy
 sympy
 matplotlib
 prettytable
-os
 pandas
 gunicorn
