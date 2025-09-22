@@ -34,12 +34,72 @@ translations_generalpage = {
     "el": {
         "back_to_home": "Αρχική",
         "general_title": "Γενικές πληροφορίες για Συμπαγείς Αστέρες",
-        "general_intro": "Σε αυτή τη σελίδα μπορείτε να βρείτε γενικά στοχεία για συμπαγείς αστέρες.",
+        "general_intro": "Σε αυτή τη σελίδα μπορείτε να βρείτε γενικά στοιχεία για Συμπαγείς Αστέρες.",
+        "sec1_title": "Εμβαθύνοντας στον μικρόκοσμο",
+            "atom": "**>>Άτομο**:",
+            "atom_text": "Αποτελείται από τον πυρήνα και τα ηλεκτρόνια **e** (με αρνητικό φορτίο: $-1e$) που κινούνται γύρω από αυτόν.",
+            "nucleus": "**>>Πυρήνας**:",
+            "nucleus_text": "Αποτελείται από τα θετικά φορτισμένα πρωτόνια **p** (με φορτίο $+1e$) και τα ουδέτερα νετρόνια **n**.",
+            "proton": "**>>Πρωτόνιο**:",
+            "proton_text": "Αποτελείται από δύο \"up\" κουάρκς και ένα \"down\" κουάρκ.",
+            "neutron": "**>>Νετρόνιο**:",
+            "neutron_text": "Αποτελείται από ένα \"up\" κουάρκ και δύο \"down\" κουάρκς.",
+            "quarks": "**>>Κουάρκς**:",
+            "quarks_text": "Μαζί με τα *λεπτόνια* (πχ. ηλεκτρόνια) αποτελούν τα πλέον στοιχειώδη σωματίδια. Μέχρι σήμερα θεωρείται ότι δεν αποτελούνται από μικρότερα σωματίδια !!!",
+        "sec2_title": "Κουάρκς: τα δομικά στοιχεία της φύσης",
+        "sec2_subtitle": "Παρακάτω δίνονται τρία πλαίσια επιλογών κουάρκ. Επιλέξτε μια από τις δύο διαθέσιμες επιλογές σε κάθε πλαίσιο για να φτιάξετε ένα σύνθετο σωματίδιο (*βαρυόνιο*).",
     },
     "en": {
         "back_to_home": "Home",
         "general_title": "General info for Compact Stars",
         "general_intro": "On this page you can find general info for Compact Stars.",
+        "sec1_title": "Diving into microcosm",
+            "atom": "**>>Atom**:",
+            "atom_text": "It consists of the nucleus and the electrons **e** (with negative charge: $-1e$) that orbit around it.",
+            "nucleus": "**>>Nucleus**:",
+            "nucleus_text": "It consists of positively charged protons **p** (with charge $+1e$) and neutral neutrons **n**.",
+            "proton": "**>>Proton**:",
+            "proton_text": "It consists of two \"up\" quarks and one \"down\" quark.",
+            "neutron": "**>>Neutron**:",
+            "neutron_text": "It consists of one \"up\" quark and two \"down\" quarks.",
+            "quarks": "**>>Quarks**:",
+            "quarks_text": "Together with *leptons* (e.g. electrons), they are the most elementary particles. To date, it is believed that they are not composed of smaller particles !!!",
+        "sec2_title": "Quarks: the building blocks of nature",
+        "sec2_subtitle": "Below are three quark selection boxes. Select one of the two available options in each box to create a composite particle (*baryon*).",   
+    }
+}
+
+# Language dictionary for the widgets of the general page
+translations_general_widgets = {
+    "el":{
+        "wdg1":{
+            "choice": "**>>Επιλογή**",
+            "charge": "**>>Φορτίο**",
+            "result": "**>>Αποτέλεσμα σύνθεσης**",
+            "state": "**>>Κατάσταση**",
+            "stable": "ΕΥΣΤΑΘΕΣ",
+            "unstable": "ΑΣΤΑΘΕΣ",
+            "proton":r"ΠΡΩΤΟΝΙΟ $p$",
+            "neutron":r"ΝΕΤΡΟΝΙΟ $n$",
+            "delta_plus": r"ΔΕΛΤΑ ΒΑΡΥΟΝΙΟ $Δ^{++}$",
+            "delta_minus": r"ΔΕΛΤΑ ΒΑΡΥΟΝΙΟ $Δ^{-}$",
+            "graph_title": ">>Βαρυόνιο: κουάρκ και αλληλεπιδράσεις"
+        }
+    },
+    "en":{
+        "wdg1":{
+            "choice": "**>>Choice**",
+            "charge": "**>>Charge**",
+            "result": "**>>Composition result**",
+            "state": "**>>State**",
+            "stable": "STABLE",
+            "unstable": "UNSTABLE",
+            "proton":r"PROTON $p$",
+            "neutron":r"NEUTRON $n$",
+            "delta_plus": r"DELTA BARYON $\Delta^{++}$",
+            "delta_minus": r"DELTA BARYON $\Delta^{-}$",
+            "graph_title": ">>Baryon: quarks and interactions"
+        }
     }
 }
 
