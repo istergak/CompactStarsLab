@@ -11,8 +11,8 @@ receives from making the Licensed Material available under these terms and condi
 
 You are free to:
 
-- Share — copy and redistribute the material of this repository in any medium or format
-- Adapt — remix, transform, and build upon the material of this repository
+- Share — copy and redistribute the material of this repository ("material" from now on) in any medium or format
+- Adapt — remix, transform, and build upon the material
 
 Under the following terms:
 
@@ -46,6 +46,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
 
 Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
 
 
 
