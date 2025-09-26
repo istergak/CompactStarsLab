@@ -20,5 +20,13 @@ def layout(lang):
 
         html.Div([
             html.P(tr["tov_intro"], style={"color": "white", "textAlign": "center"})
-        ], style={"marginTop": "50px"})
+        ], style={"marginTop": "50px"}),
+
+        # Copyright
+        html.Footer([
+        html.Span("© 2025 CompactStarsLab by "),
+        html.A("Ioannis Stergakis", href="https://github.com/istergak", target="_blank", style={"color":"white"}),
+        html.Span(" – Licensed under "),
+        html.A("CC BY-NC-SA 4.0", href="https://creativecommons.org/licenses/by-nc-sa/4.0/", target="_blank",style={"color":"white"})
+        ], style={"color":"white","textAlign": "center", "marginTop": "20px", "fontSize": "12px"})
     ], className="dark-page")

@@ -50,5 +50,13 @@ def layout(lang):
                     ], className="button-card")
                 ], href="/tov_page")
             ], style={"display": "inline-block", "margin": "30px"}),
-        ], style={"textAlign": "center"})
+        ], style={"textAlign": "center"}),
+
+        # Copyright
+        html.Footer([
+        html.Span("© 2025 CompactStarsLab by "),
+        html.A("Ioannis Stergakis", href="https://github.com/istergak", target="_blank", style={"color":"white"}),
+        html.Span(" – Licensed under "),
+        html.A("CC BY-NC-SA 4.0", href="https://creativecommons.org/licenses/by-nc-sa/4.0/", target="_blank",style={"color":"white"})
+        ], style={"color":"white","textAlign": "center", "marginTop": "20px", "fontSize": "12px"})
     ])

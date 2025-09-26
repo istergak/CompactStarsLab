@@ -100,7 +100,17 @@ def layout(lang):
                 ],style={'display': 'flex', 'justifyContent': 'justify'})
             ]),
             dcc.Graph(id="wdg1-baryon",figure=wdg1_baryon_build(["None","None","None"],lang),style={"marginLeft":"100px","border":"2px dashed green", "borderRadius":"10px",})
-        ],style={'display': 'flex', 'justifyContent': 'justify'})
+        ],style={'display': 'flex', 'justifyContent': 'justify'}),
+
+
+        # Copyright
+         # Copyright
+        html.Footer([
+        html.Span("© 2025 CompactStarsLab by "),
+        html.A("Ioannis Stergakis", href="https://github.com/istergak", target="_blank", style={"color":"white"}),
+        html.Span(" – Licensed under "),
+        html.A("CC BY-NC-SA 4.0", href="https://creativecommons.org/licenses/by-nc-sa/4.0/", target="_blank",style={"color":"white"})
+        ], style={"color":"white","textAlign": "center", "marginTop": "20px", "fontSize": "12px"})
     ], className="dark-page")
 
 # Updating "microcosm-img" content based on selected language

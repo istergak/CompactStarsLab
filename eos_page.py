@@ -44,7 +44,15 @@ def layout(lang):
         ], style={"textAlign": "center", "marginTop": "30px"}),
 
         # Showing widgets based on the selected type of star 
-        html.Div(id="star-content", style={"marginTop": "40px"})
+        html.Div(id="star-content", style={"marginTop": "40px"}),
+
+        # Copyright
+        html.Footer([
+        html.Span("© 2025 CompactStarsLab by "),
+        html.A("Ioannis Stergakis", href="https://github.com/istergak", target="_blank", style={"color":"white"}),
+        html.Span(" – Licensed under "),
+        html.A("CC BY-NC-SA 4.0", href="https://creativecommons.org/licenses/by-nc-sa/4.0/", target="_blank",style={"color":"white"})
+        ], style={"color":"white","textAlign": "center", "marginTop": "20px", "fontSize": "12px"})
     ], className="dark-page")
 
 
@@ -87,8 +95,8 @@ def update_star_content(neutron_clicks_1,neutron_clicks_2, neutron_clicks_3,quar
 
             # Figures
             html.Div([
-            dcc.Graph(id="wdg1-fig-crust-eos", figure=wdg1_crust_eos_fig(lang)),
-            dcc.Graph(id="wdg1-fig-NS-2D-struct", figure=wdg1_star_structure_figure(lang))
+                dcc.Graph(id="wdg1-fig-crust-eos", figure=wdg1_crust_eos_fig(lang)),
+                dcc.Graph(id="wdg1-fig-NS-2D-struct", figure=wdg1_star_structure_figure(lang))
             ], style={'display': 'flex', 'justifyContent': 'space-between',"marginBottom": "-50px"}),
  
             html.Div([
