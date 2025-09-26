@@ -32,7 +32,7 @@ Under the following terms:
 
 Disclaimer:
 
-This project, "CompactStarsLab" by Ioannis Stergakis, uses open-source libraries such as Dash, Plotly, 
+This project, "CompactStarsLab" by [Ioannis Stergakis](https://github.com/istergak), uses open-source libraries such as Dash, Plotly, 
 Pandas, Sympy, Scipy, Matplotlib, and others, which are licensed under their respective open-source 
 licenses. This license applies only to the original code written for this project.
 
@@ -46,3 +46,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
 
 Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
